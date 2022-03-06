@@ -9,7 +9,7 @@ repeat{
   if(x==prev){
     break
   } else 
-    prev <- x #still trying to find out what happenes and why I get an infinite loop, but this would be my approach on this problem
+    prev <- x
 }
 
 cat("There must be ", count, "tosses for us to get 2 successive tails or heads.")
