@@ -3,9 +3,9 @@
 Since there are 3 girls and 3 boys (6 children in total), we can solve it with permutations, and so we would have ( (3!) * (3!) ) / (6!) which represents the probability (with the formula in mind being: P= favorable cases/possible cases), and so we would have the result 0.05, which represents a 5% chance for the gils to be the oldest ones.
 
 
-28. For this exercise I created a program, then realized there is no need for one, and it is pretty hard coded, but the probability for the courses to be held in the same interval would be (using the Permutations with repetition approach to find the possibilities and then the formula used in the last exercise to find out the probability) P = 120/1000 (favorable cases/possibilities cases) which is equal to 0.12 => 12% chance for the intervals of the course to be the same in the 10 timeslots available.
+28. P = 1-10*9*8/1000
 
 
-29. a) They are equal because there is no difference between 21 and 22 when it comes to chance of getting it on a 4 fair dice. It would have been a difference if the number was "out of bounds", for example if we would have 25 as a total number, which is not possible to get with 4 dices, even if they would have a total of 24. The right sign would be =.
+29. a) The right sign would be >. It requires at least 1 die to hit number 6 in order to get the value 21 with 4 dice, but to get the value 22, it would require at least 2 dice that would be 6, and so the probability to get the value 21 is greater than the probability to get the value 22.
 
-b) A 2-letter word would be more possible to be a palindrom, since there are fewer possible cases, being 351, and for 3-letter words there are 3276 possible cases. The adequate sign in this case is >.
+b) Since in the first case we need to have the first and last letters to be the same and in the second case, the first and the last should be as well the same, whatever the middle letter may be, it means that the probability is equal. The adequate sign in this case is =.
